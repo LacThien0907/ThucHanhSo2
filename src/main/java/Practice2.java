@@ -202,6 +202,16 @@ public class Practice2 {
                 System.out.println("31 Ngay");
                 break;
         }
+        //BAI 2
+        char A2 = 'h';
+        if (A2 > 64 && A2 < 91) {
+            System.out.println("Chữ cái đã được đổi sang chữ thường " + (char) (A2 + 32));
+        } else if (A2 > 96 && A2 < 123) {
+            System.out.println("Chữ cái đã được đổi sang chữ hoa: " + (char) (A2 - 32));
+        }
+        if (A2 == 32) {
+            System.out.print(" ");
+        }
 
 }
 
